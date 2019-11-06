@@ -1,3 +1,8 @@
+# Custom
+config.py
+env.properties
+target/
+
 # Compiled class file
 *.class
 
@@ -11,7 +16,7 @@
 .mtj.tmp/
 
 # Package Files #
-*.jar
+# *.jar
 *.war
 *.nar
 *.ear
@@ -21,3 +26,26 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+# Python
+*.pyc
+
+# Eclipse
+.settings
+.project
+.classpath
+
+# VisualStudioCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# VisualStudioCode Patch
+# Ignore all local history of files
+.history
+
+
+
+
